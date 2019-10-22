@@ -1,0 +1,202 @@
+/*
+Theme Name: myTheme
+Theme URI: http://does not exist
+Author: Kyrle
+Author URI: http://gbgbeatz.se
+Description: it is what it is
+Version: 1.0
+License: None
+License URI: http://no.one
+Tags: grp
+Text Domain: not needed
+
+myTheme
+*/
+/* General styles
+------------------------------------------------------------------ */
+@font-face {
+  font-family: newonw;
+  src: url('goes here') format('truetype');
+}
+
+
+
+html {
+  color: black;
+  padding: 30px;
+}
+
+body {
+  background-color: lightblue;
+}
+
+#company {
+  position: flex;
+  color: black;
+}
+
+#thaform {
+  background-color: gray;
+  padding: 50px;
+  text-align: center;
+}
+
+form * {
+  width: 80%;
+  height: 50px;
+  font-size: 30px;
+}
+
+#logo {
+  justify-content: 50%;
+  float: left;
+  font-size: 20px;
+  padding: 20px;
+}
+
+#nav {
+  justify-content: 50%;
+  float: right;
+  padding: 20px;
+  font-size: 20px;
+}
+
+#top {
+  padding: 30px;
+}
+
+#top h1 {
+  font-size: 60px;
+
+}
+
+#top img {
+  width: 80%;
+
+}
+
+#top p {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#vrfr h1 {
+  font-size: 60px;
+
+}
+
+#news h1 {
+  font-size: 60px;
+
+}
+
+
+#ring {
+  background-color: lightgray;
+  display: flex;
+
+}
+
+.rings {
+  background-color: lightgray;
+  border: 45px;
+  flex: 33%;
+  text-align: center;
+  padding: 50px;
+}
+
+
+.rings p {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 50px;
+}
+
+.rinrin {
+  background-color: darkgrey;
+  border-radius: 50%;
+  height: 300px;
+  padding: 60px;
+}
+
+.menu {
+
+  display: block;
+}
+
+.menu ul {
+  display: block;
+}
+
+.menu li {
+  float: left;
+  display: block;
+  padding: 10px;
+}
+
+#header {
+  background-color: darkblue;
+  width: 100%;
+  text-align: center;
+
+}
+
+#header h1 {
+  padding: 50px;
+  font-size: 50px;
+  color: lightcyan;
+}
+
+.pictures {
+  width: 200px;
+}
+
+#post {
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  text-align: center;
+  font-size: 50px;
+}
+
+#banner h1 {
+  padding: 50px;
+  font-size: 50px;
+  color: lightcyan;
+  background-color: darkblue;
+  width: 100%;
+  text-align: center;
+}
+
+#quote p {
+  padding: 50px;
+  font-size: 30px;
+  color: black;
+  width: 100%;
+  text-align: center;
+}
+
+#footer p {
+  padding: 50px;
+  font-size: 20px;
+  color: black;
+  background-color: skyblue;
+  width: 100%;
+  text-align: center;
+}
+
+.redtext {
+  color: red;
+}
+
+.greentext {
+  color: green;
+}
