@@ -8,38 +8,36 @@
 </div>
 
 <div id="top">
-  <h1>Ta banklån nu!</h1>
+  <h1><?php the_field('header1');?></h1>
 
 <br><br>
 
-<img src="https://www.positive.news/wp-content/uploads/2019/03/feat-1800x0-c-center.jpg">
+<img src="<?php the_field('picture1');?>">
 
 <br><br>
 
 <p>
-  Behöver du ett blancolån, låna till boendet, skaffa en
-extra buffert på kontot eller är det dags för en ny
-bil och du vill ha ett bra lån - vi har lån till vad du vill.
+ <?php the_field('text1');?>
 </p>
 </div>
 
 
 <div id="vrfr">
-  <h1>Varför?</h1>
+  <h1><?php the_field('headline2');?></h1>
 
 <br><br>
 
 <div id="ring">
-<div class="rings"><div class="rinrin"><p>köpa båt</p></div></div>
-<div class="rings"><div class="rinrin"><p>köpa häst</p></div></div>
-<div class="rings"><div class="rinrin"><p>köpa traktor</p></div></div>
+<div class="rings"><div class="rinrin"><p><?php the_field('cta-1');?></p></div></div>
+<div class="rings"><div class="rinrin"><p><?php the_field('cta-2');?></p></div></div>
+<div class="rings"><div class="rinrin"><p><?php the_field('cta-3');?></p></div></div>
 </div>
 </div>
 
 
 
 <div id="news">
-  <h1>Nyhetsbrev</h1>
+  <h1><?php the_field('header-3');?></h1>
 
 
 <br><br>
