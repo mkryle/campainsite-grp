@@ -2,5 +2,5 @@
 # 
 # all done (clap clap)
 #
-# (see "page overview.png")
+# (see "pageoverview.jpg")
 #
